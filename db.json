@@ -1,36 +1,6 @@
-[
-  {
-    "type": "Maintenance service",
-    "services": [
-      {
-        "name": "Change oil and oil filter in engine",
-        "price": "20$",
-        "img": "",
-        "leadTime": "0.5"
-      },
-      {
-        "name": "Change oil and oil filter in automatic transmission",
-        "price": "70$",
-        "img": "",
-        "leadTime": "2"
-      }
-    ]
-  },
-  {
-    "type": "Diagnostics",
-    "services": [
-      {
-        "name": "Check running gear",
-        "price": "10$",
-        "img": "",
-        "leadTime": "0.5"
-      },
-      {
-        "name": "Computer diagnostic",
-        "price": "10$",
-        "img": "",
-        "leadTime": "0.6"
-      }
-    ]
-  }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Hello world" },
+    { "id": 2, "title": "Second post" }
+  ]
+}
