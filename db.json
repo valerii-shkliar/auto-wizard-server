@@ -1,10 +1,10 @@
 {
   "images": {
-    "img": "./images/repairs-images/repair-engine.jpg"
+    "img": "/images/repairs-images/repair-engine.jpg"
   },
   "services": {
     "Maintenance service": {
-      "icon": "./images/services-icons/diagnostics.svg",
+      "icon": "/images/services-icons/diagnostics.svg",
       "servicesList": [
         {
           "name": "Change oil and oil filter in engine",
