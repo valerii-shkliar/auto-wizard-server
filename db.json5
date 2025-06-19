@@ -1,0 +1,72 @@
+{
+  images: {
+    img: './images/repairs-images/repair-engine.jpg',
+  }
+  services: {
+    'Maintenance service': {
+      icon: './images/services-icons/diagnostics.svg',
+      services-list: [
+      {
+        name: 'Change oil and oil filter in engine',
+        price: '15$',
+        leadTime: '0.5',
+      },
+      {
+        name: 'Change oil and oil filter in automatic transmission',
+        price: '60$',
+        leadTime: '2',
+      },
+      {
+        name: 'Change oil manual transmission',
+        price: '30$',
+        leadTime: '1',
+      },
+      {
+        name: 'Change cooling liquid',
+        price: '30$',
+        leadTime: '1',
+      },
+      {
+        name: 'Change brake fluid',
+        price: '18$',
+        leadTime: '0.6',
+      },
+    ],
+    }
+    Diagnostics: {
+      icon: '',
+      services-list: [
+      {
+        name: 'Check running gear',
+        price: '15$',
+        leadTime: '0.5',
+      },
+      {
+        name: 'Computer diagnostic',
+        price: '18$',
+        leadTime: '0.6',
+      },
+      {
+        name: 'Adjust headlights',
+        price: '9$',
+        leadTime: '0.3',
+      },
+      {
+        name: 'Air-condition diagnostic',
+        price: '24$',
+        leadTime: '0.8',
+      },
+      {
+        name: 'Cooling system diagnostic',
+        price: '15$',
+        leadTime: '0.5',
+      },
+      {
+        name: 'State of cylinders check (endoscope)',
+        price: '30$',
+        leadTime: '1',
+      },
+    ],
+    }
+  },
+}
