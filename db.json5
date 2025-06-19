@@ -1,7 +1,7 @@
 {
   images: {
     img: './images/repairs-images/repair-engine.jpg',
-  }
+  },
   services: {
     'Maintenance service': {
       icon: './images/services-icons/diagnostics.svg',
@@ -32,7 +32,7 @@
         leadTime: '0.6',
       },
     ],
-    }
+    },
     diagnostics: {
       icon: '',
       services-list: [
@@ -67,6 +67,6 @@
         leadTime: '1',
       },
     ],
-    }
+    },
   },
 }
