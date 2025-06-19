@@ -33,7 +33,7 @@
       },
     ],
     }
-    Diagnostics: {
+    diagnostics: {
       icon: '',
       services-list: [
       {
