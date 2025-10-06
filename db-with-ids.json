@@ -2,14 +2,15 @@
   "users": [
     {
       "img": "public/images/repairs-images/repair-engine.jpg",
-      "name": "user1"
+      "name": "user1",
+      "id": "153fe17e-bdf3-4061-9ae8-54b6270f9edf"
     },
     {
       "img": "http://localhost:4000/static/images/images/repairs-images/repair-engine.jpg",
-      "name": "user2"
+      "name": "user2",
+      "id": "57e11c14-c02e-48e2-b330-4b1adf0ee170"
     }
   ],
-
   "services": [
     {
       "partition": "Maintenance Service",
@@ -18,44 +19,53 @@
         {
           "name": "Replace oil and oil filter in engine",
           "price": "15$",
-          "leadTime": "0.5"
+          "leadTime": "0.5",
+          "id": "62ac2a96-3b36-41c2-878f-09fbeb66035e"
         },
         {
           "name": "Replace spark plugs",
           "price": "18$",
-          "leadTime": "0.6"
+          "leadTime": "0.6",
+          "id": "1bd1f102-e5d1-4d8f-810a-8b125cad12af"
         },
         {
           "name": "Replace glow plugs",
           "price": "15$",
-          "leadTime": "0.5"
+          "leadTime": "0.5",
+          "id": "45b979aa-6c66-4758-ab05-f3b3f911d800"
         },
         {
           "name": "Replace fuel filter",
           "price": "25$",
-          "leadTime": "1.5"
+          "leadTime": "1.5",
+          "id": "5b061c6f-03a6-472c-ac4f-da025d423d84"
         },
         {
           "name": "Replace oil and oil filter in automatic transmission",
           "price": "60$",
-          "leadTime": "2"
+          "leadTime": "2",
+          "id": "7a8a5930-237f-4396-a079-c8ada88b8a0a"
         },
         {
           "name": "Replace oil manual transmission",
           "price": "30$",
-          "leadTime": "1"
+          "leadTime": "1",
+          "id": "23ed683d-fe8c-4618-9a4a-a1e1cf848993"
         },
         {
           "name": "Replace cooling liquid",
           "price": "30$",
-          "leadTime": "1"
+          "leadTime": "1",
+          "id": "75e0d44f-dd06-4671-a365-ee520fd2b830"
         },
         {
           "name": "Replace brake fluid",
           "price": "18$",
-          "leadTime": "0.6"
+          "leadTime": "0.6",
+          "id": "8a69a687-bc9e-448f-bc3d-d69e3124d8e3"
         }
-      ]
+      ],
+      "id": "db3da50b-17da-42c8-8d49-567fec82df43"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/air-condition.svg",
@@ -64,34 +74,41 @@
         {
           "name": "Replace air filter",
           "price": "6$",
-          "leadTime": "0.2"
+          "leadTime": "0.2",
+          "id": "75778a21-bf09-4a75-b1c6-76b1d5c46214"
         },
         {
           "name": "Refilling system",
           "price": "18$",
-          "leadTime": "0.6"
+          "leadTime": "0.6",
+          "id": "08e4fa2e-b461-4b99-92d3-72d4ac55fd92"
         },
         {
           "name": "Replace compressor",
           "price": "60$",
-          "leadTime": "2"
+          "leadTime": "2",
+          "id": "209377ab-6d86-414f-bb48-d8cfbb8a55be"
         },
         {
           "name": "Replace evaporator",
           "price": "210$",
-          "leadTime": "7"
+          "leadTime": "7",
+          "id": "a98f1e62-f96f-4b33-b392-a21dfcfc969a"
         },
         {
           "name": "Replace condenser",
           "price": "75$",
-          "leadTime": "2.5"
+          "leadTime": "2.5",
+          "id": "413fa788-efb6-4512-b30b-5b92372c8b74"
         },
         {
           "name": "Replace tube(s)",
           "price": "60$",
-          "leadTime": "2"
+          "leadTime": "2",
+          "id": "226fa1be-f084-4e90-b8a1-19ac7ed94252"
         }
-      ]
+      ],
+      "id": "878fc6af-6239-46b9-a0b2-1b37cc4d6199"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/running-gear.svg",
@@ -100,34 +117,41 @@
         {
           "name": "Wheel alignment adjustment",
           "price": "30$",
-          "leadTime": "1"
+          "leadTime": "1",
+          "id": "4785092d-7064-460a-b2d4-84879cd10644"
         },
         {
           "name": "Replace shock absorbers",
           "price": "105$",
-          "leadTime": "3.5"
+          "leadTime": "3.5",
+          "id": "d5d1a179-291d-4d6e-93bb-7c89567edc47"
         },
         {
           "name": "Replace ball joint",
           "price": "21$",
-          "leadTime": "0.7"
+          "leadTime": "0.7",
+          "id": "3d46ef6f-2228-4dbf-a425-a0011800d9de"
         },
         {
           "name": "Replace hub bearing",
           "price": "42$",
-          "leadTime": "1.4"
+          "leadTime": "1.4",
+          "id": "210049bb-abe5-4040-a77c-725920bd7897"
         },
         {
           "name": "Replace stabilizer rods",
           "price": "24$",
-          "leadTime": "0.8"
+          "leadTime": "0.8",
+          "id": "46b9bbf3-fcf9-456a-ae14-50b6790d5049"
         },
         {
           "name": "Replace drive shaft joint",
           "price": "60$",
-          "leadTime": "2"
+          "leadTime": "2",
+          "id": "843ce170-9e3e-4fa5-b518-0700859869f2"
         }
-      ]
+      ],
+      "id": "f27bef31-51f2-4a8e-8e98-0f6673e2dddb"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/engine.svg",
@@ -136,34 +160,41 @@
         {
           "name": "Replace fuel pump",
           "price": "60$",
-          "leadTime": "2"
+          "leadTime": "2",
+          "id": "5220413c-acd2-46fc-8093-e75c0e3d1adf"
         },
         {
           "name": "Replace timing chain",
           "price": "48$",
-          "leadTime": "8"
+          "leadTime": "8",
+          "id": "eebc6a10-90bf-43cc-8c81-1c8929c07437"
         },
         {
           "name": "Replace valve case seal",
           "price": "75$",
-          "leadTime": "2.5"
+          "leadTime": "2.5",
+          "id": "fe970ad1-f8d0-4df5-be1c-2992bad17b45"
         },
         {
           "name": "Replace cylinder head gasket",
           "price": "600$",
-          "leadTime": "10"
+          "leadTime": "10",
+          "id": "8a5a369a-d866-4f52-a2a5-02517662a876"
         },
         {
           "name": "Capital repair cylinder head",
           "price": "900$",
-          "leadTime": "15"
+          "leadTime": "15",
+          "id": "cddb2226-8497-4e8e-bfb7-b399262c1fcf"
         },
         {
           "name": "Replace pistons",
           "price": "1200$",
-          "leadTime": "20"
+          "leadTime": "20",
+          "id": "6826bfc4-e58c-4adb-9cfd-fc00a767c7aa"
         }
-      ]
+      ],
+      "id": "4e216ac2-cdc9-47d1-9846-f6d5c262992f"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/transmission.svg",
@@ -172,39 +203,47 @@
         {
           "name": "Replace clutch (mechanic)",
           "price": "210$",
-          "leadTime": "7"
+          "leadTime": "7",
+          "id": "34b3c1cc-9c10-4cd9-84be-01b8caf6f6dc"
         },
         {
           "name": "Replace clutch (robotic)",
           "price": "300$",
-          "leadTime": "10"
+          "leadTime": "10",
+          "id": "464f0b80-2ea1-4b9d-904c-cbd3cb72000c"
         },
         {
           "name": "Replace final drive",
           "price": "150$",
-          "leadTime": "5"
+          "leadTime": "5",
+          "id": "eb9249ca-86b6-4a39-a3e8-72185ec2f8a7"
         },
         {
           "name": "Replace angular gear",
           "price": "135$",
-          "leadTime": "4.5"
+          "leadTime": "4.5",
+          "id": "eab9c94a-b902-4012-a46c-9c45828c57fc"
         },
         {
           "name": "Replace drive seals",
           "price": "90$",
-          "leadTime": "3"
+          "leadTime": "3",
+          "id": "3ec3ca7b-0426-401b-aadf-315d75dd0602"
         },
         {
           "name": "Replace gears or frictions",
           "price": "600$",
-          "leadTime": "20"
+          "leadTime": "20",
+          "id": "9320eab1-769b-428f-bc1c-11e63a2e4070"
         },
         {
           "name": "Replace propeller shaft bearing ",
           "price": "120$",
-          "leadTime": "4"
+          "leadTime": "4",
+          "id": "faef6008-cc9d-462f-bb9f-4bd373759ac7"
         }
-      ]
+      ],
+      "id": "d5a250e4-22a2-4aa5-beff-b470835211da"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/tire.svg",
@@ -213,39 +252,47 @@
         {
           "name": "4 Wheels remove and install",
           "price": "12$",
-          "leadTime": "0.4"
+          "leadTime": "0.4",
+          "id": "802ea6db-59db-4a5a-8500-78ba66e3a429"
         },
         {
           "name": "Tire service 4 wheels",
           "price": "24$",
-          "leadTime": "0.8"
+          "leadTime": "0.8",
+          "id": "6546a528-484d-45c2-9f73-e05d2ff15208"
         },
         {
           "name": "Repair tire (puncture)",
           "price": "12$",
-          "leadTime": "0.4"
+          "leadTime": "0.4",
+          "id": "b0e92d4e-9385-4e1d-92bd-861cada3818c"
         },
         {
           "name": "Repair tire (side cut)",
           "price": "18$",
-          "leadTime": "0.6"
+          "leadTime": "0.6",
+          "id": "f1becabe-4a20-4f3f-a53b-696f0e2d6954"
         },
         {
           "name": "Tire preservation",
           "price": "9$",
-          "leadTime": "0.3"
+          "leadTime": "0.3",
+          "id": "6d9b157a-640b-4e46-b213-c8beacac7269"
         },
         {
           "name": "Store tires (until 6 month)",
           "price": "40$",
-          "leadTime": "-"
+          "leadTime": "-",
+          "id": "ea41d4e1-b6bf-4177-879d-3d4bffa8b2b2"
         },
         {
           "name": "Disc rolling",
           "price": "30$",
-          "leadTime": "1"
+          "leadTime": "1",
+          "id": "ca15fa70-dcc8-4746-a359-6e770b664b1d"
         }
-      ]
+      ],
+      "id": "8b8ceb57-ea6f-4014-846c-586c3c936349"
     },
     {
       "icon": "http://localhost:4000/static/images/services-icons/electrics.svg",
@@ -254,39 +301,47 @@
         {
           "name": "Accumulator replacement",
           "price": "12$",
-          "leadTime": "0.4"
+          "leadTime": "0.4",
+          "id": "0dd17b80-f49d-4fa1-8927-b1053758f576"
         },
         {
           "name": "Computer diagnostic",
           "price": "21$",
-          "leadTime": "0.7"
+          "leadTime": "0.7",
+          "id": "c5b8c195-2067-4498-8157-042dc35cfd11"
         },
         {
           "name": "Setting multimedia",
           "price": "120$",
-          "leadTime": "4"
+          "leadTime": "4",
+          "id": "91114b80-7ed5-43ba-821a-b14c40db35d8"
         },
         {
           "name": "Setting rear camera",
           "price": "180$",
-          "leadTime": "6"
+          "leadTime": "6",
+          "id": "d3ece704-cc10-4ca1-866b-9160f89ef2e6"
         },
         {
           "name": "Setting parking-sensors (front or rear bumper)",
           "price": "150$",
-          "leadTime": "5"
+          "leadTime": "5",
+          "id": "2004a09e-8de1-4dd8-b02c-e4fa15bac94b"
         },
         {
           "name": "Calibration cruise-control",
           "price": "21$",
-          "leadTime": "0.7"
+          "leadTime": "0.7",
+          "id": "997fe576-46cc-4251-b248-9db9a2349ab0"
         },
         {
           "name": "Bulb replacement",
           "price": "6$",
-          "leadTime": "0.2"
+          "leadTime": "0.2",
+          "id": "a60a90cc-c610-4837-81db-7fbb68d9c0ac"
         }
-      ]
+      ],
+      "id": "75578597-4a85-45f3-ad1a-f475241a74da"
     }
   ]
 }
