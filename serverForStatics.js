@@ -46,8 +46,8 @@ app.use(middlewares);
 app.use('/api', router);
 
 // Запуск сервера
-const PORT = 4000;
-app.listen(PORT, () => {
-  console.log(`✅ JSON Server is running at http://localhost:${PORT}`);
-  console.log(`📁 Static files available at http://localhost:${PORT}/static`);
-});
+// const PORT = 4000;
+// app.listen(PORT, () => {
+//   console.log(`✅ JSON Server is running at http://localhost:${PORT}`);
+//   console.log(`📁 Static files available at http://localhost:${PORT}/static`);
+// });

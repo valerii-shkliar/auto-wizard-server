@@ -5,7 +5,7 @@
       "name": "user1"
     },
     {
-      "img": "http://localhost:4000/static/images/images/repairs-images/repair-engine.jpg",
+      "img": "https://auto-wizard-server.onrender.com/static/images/images/repairs-images/repair-engine.jpg",
       "name": "user2"
     }
   ],
@@ -13,7 +13,7 @@
   "services": [
     {
       "partition": "Maintenance Service",
-      "icon": "http://localhost:4000/static/images/services-icons/maintenance-service.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/maintenance-service.svg",
       "servicesList": [
         {
           "name": "Replace oil and oil filter in engine",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/air-condition.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/air-condition.svg",
       "partition": "Air condition",
       "servicesList": [
         {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/running-gear.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/running-gear.svg",
       "partition": "Running gear",
       "servicesList": [
         {
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/engine.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/engine.svg",
       "partition": "Engine",
       "servicesList": [
         {
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/transmission.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/transmission.svg",
       "partition": "Transmission",
       "servicesList": [
         {
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/tire.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/tire.svg",
       "partition": "Tire service",
       "servicesList": [
         {
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/electrics.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/electrics.svg",
       "partition": "Electrics",
       "servicesList": [
         {
