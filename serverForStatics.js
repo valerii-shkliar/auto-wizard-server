@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import generateIdForDB from './utilities/generateIdForDB.js';
+import JSON5 from 'json5';
 
 // Получаем текущую директорию
 const __filename = fileURLToPath(import.meta.url);
@@ -11,8 +12,8 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-const dbPath = path.join(__dirname, 'db.json');
-const dbRaw = JSON.parse(fs.readFileSync(dbPath, 'utf-8'));
+const dbPath = path.join(__dirname, 'db.json5');
+const dbRaw = JSON5.parse(fs.readFileSync(dbPath, 'utf-8'));
 
 generateIdForDB(dbRaw);
 
