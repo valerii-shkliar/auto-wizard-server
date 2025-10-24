@@ -2,8 +2,8 @@ import express from 'express';
 import jsonServer from 'json-server';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { v4 as uuidv4 } from 'uuid';
 import fs from 'fs';
+import generateIdForDB from './utilities/generateIdForDB.js';
 
 // Получаем текущую директорию
 const __filename = fileURLToPath(import.meta.url);
@@ -14,23 +14,7 @@ const app = express();
 const dbPath = path.join(__dirname, 'db.json');
 const dbRaw = JSON.parse(fs.readFileSync(dbPath, 'utf-8'));
 
-function generateId(db) {
-  if (Array.isArray(db) || (typeof db === 'object' && db !== null)) {
-    for (const key in db) {
-      const item = db[key];
-
-      if (Array.isArray(item)) {
-        generateId(item);
-        continue;
-      }
-      if (typeof item === 'object') {
-        item.id = uuidv4();
-        generateId(item);
-      }
-    }
-  }
-}
-generateId(dbRaw);
+generateIdForDB(dbRaw);
 
 const tempDbPath = path.join(__dirname, 'db-with-ids.json');
 fs.writeFileSync(tempDbPath, JSON.stringify(dbRaw, null, 2), 'utf-8');

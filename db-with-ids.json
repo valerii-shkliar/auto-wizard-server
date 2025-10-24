@@ -3,345 +3,345 @@
     {
       "img": "public/images/repairs-images/repair-engine.jpg",
       "name": "user1",
-      "id": "153fe17e-bdf3-4061-9ae8-54b6270f9edf"
+      "id": "e4a73358-3768-40e9-8c67-e36c7cdd1e30"
     },
     {
-      "img": "http://localhost:4000/static/images/images/repairs-images/repair-engine.jpg",
+      "img": "https://auto-wizard-server.onrender.com/static/images/images/repairs-images/repair-engine.jpg",
       "name": "user2",
-      "id": "57e11c14-c02e-48e2-b330-4b1adf0ee170"
+      "id": "ea0a56fa-497d-4552-b11a-1ceaefd50bc5"
     }
   ],
   "services": [
     {
       "partition": "Maintenance Service",
-      "icon": "http://localhost:4000/static/images/services-icons/maintenance-service.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/maintenance-service.svg",
       "servicesList": [
         {
           "name": "Replace oil and oil filter in engine",
           "price": "15$",
           "leadTime": "0.5",
-          "id": "62ac2a96-3b36-41c2-878f-09fbeb66035e"
+          "id": "4809e6eb-b24c-4e26-b7a1-b47e0d107813"
         },
         {
           "name": "Replace spark plugs",
           "price": "18$",
           "leadTime": "0.6",
-          "id": "1bd1f102-e5d1-4d8f-810a-8b125cad12af"
+          "id": "1a573dcc-aa16-43b5-956c-b845b0b3826d"
         },
         {
           "name": "Replace glow plugs",
           "price": "15$",
           "leadTime": "0.5",
-          "id": "45b979aa-6c66-4758-ab05-f3b3f911d800"
+          "id": "b4a3c0d8-0476-48d1-b6a6-d8bcf1c40c4a"
         },
         {
           "name": "Replace fuel filter",
           "price": "25$",
           "leadTime": "1.5",
-          "id": "5b061c6f-03a6-472c-ac4f-da025d423d84"
+          "id": "041ee2d9-d61b-4f80-bc1c-33fa8e5b1441"
         },
         {
           "name": "Replace oil and oil filter in automatic transmission",
           "price": "60$",
           "leadTime": "2",
-          "id": "7a8a5930-237f-4396-a079-c8ada88b8a0a"
+          "id": "b16bdc93-cd29-43d1-a979-d7fd701f7ee7"
         },
         {
           "name": "Replace oil manual transmission",
           "price": "30$",
           "leadTime": "1",
-          "id": "23ed683d-fe8c-4618-9a4a-a1e1cf848993"
+          "id": "83b689a3-2a52-4199-b343-37b95a72d2c6"
         },
         {
           "name": "Replace cooling liquid",
           "price": "30$",
           "leadTime": "1",
-          "id": "75e0d44f-dd06-4671-a365-ee520fd2b830"
+          "id": "9022a09b-77ef-430b-ab1f-3885cd6a4279"
         },
         {
           "name": "Replace brake fluid",
           "price": "18$",
           "leadTime": "0.6",
-          "id": "8a69a687-bc9e-448f-bc3d-d69e3124d8e3"
+          "id": "695f5a25-fa18-42fa-a869-6bbe0743e465"
         }
       ],
-      "id": "db3da50b-17da-42c8-8d49-567fec82df43"
+      "id": "99822e79-d04b-404f-9b44-78c89ef773f3"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/air-condition.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/air-condition.svg",
       "partition": "Air condition",
       "servicesList": [
         {
           "name": "Replace air filter",
           "price": "6$",
           "leadTime": "0.2",
-          "id": "75778a21-bf09-4a75-b1c6-76b1d5c46214"
+          "id": "5b5e7528-9113-4bb2-bf66-b3fb51ba8604"
         },
         {
           "name": "Refilling system",
           "price": "18$",
           "leadTime": "0.6",
-          "id": "08e4fa2e-b461-4b99-92d3-72d4ac55fd92"
+          "id": "58976362-41a0-441c-93e4-65f0066dab59"
         },
         {
           "name": "Replace compressor",
           "price": "60$",
           "leadTime": "2",
-          "id": "209377ab-6d86-414f-bb48-d8cfbb8a55be"
+          "id": "25dd41ca-2dd4-480c-8c40-40587c729b54"
         },
         {
           "name": "Replace evaporator",
           "price": "210$",
           "leadTime": "7",
-          "id": "a98f1e62-f96f-4b33-b392-a21dfcfc969a"
+          "id": "1e611314-7ff9-4822-b716-b4886fe7ca96"
         },
         {
           "name": "Replace condenser",
           "price": "75$",
           "leadTime": "2.5",
-          "id": "413fa788-efb6-4512-b30b-5b92372c8b74"
+          "id": "9a9fcfa7-aec0-452f-aa8a-ea13b24b5aca"
         },
         {
           "name": "Replace tube(s)",
           "price": "60$",
           "leadTime": "2",
-          "id": "226fa1be-f084-4e90-b8a1-19ac7ed94252"
+          "id": "e71eb42c-fc2d-45d1-b8d1-475f8191add9"
         }
       ],
-      "id": "878fc6af-6239-46b9-a0b2-1b37cc4d6199"
+      "id": "6af71860-241f-401e-86ad-cf37fe3412ab"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/running-gear.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/running-gear.svg",
       "partition": "Running gear",
       "servicesList": [
         {
           "name": "Wheel alignment adjustment",
           "price": "30$",
           "leadTime": "1",
-          "id": "4785092d-7064-460a-b2d4-84879cd10644"
+          "id": "0a421a25-6919-4ecb-91b7-8654fa77cc09"
         },
         {
           "name": "Replace shock absorbers",
           "price": "105$",
           "leadTime": "3.5",
-          "id": "d5d1a179-291d-4d6e-93bb-7c89567edc47"
+          "id": "2dfff869-414a-4e7a-b62b-75fd1fc7ef95"
         },
         {
           "name": "Replace ball joint",
           "price": "21$",
           "leadTime": "0.7",
-          "id": "3d46ef6f-2228-4dbf-a425-a0011800d9de"
+          "id": "93c8db60-2bb3-41a2-bc90-3deb0e9a329e"
         },
         {
           "name": "Replace hub bearing",
           "price": "42$",
           "leadTime": "1.4",
-          "id": "210049bb-abe5-4040-a77c-725920bd7897"
+          "id": "1cec6fda-f0b0-4cc0-851b-0e6bb1466dc0"
         },
         {
           "name": "Replace stabilizer rods",
           "price": "24$",
           "leadTime": "0.8",
-          "id": "46b9bbf3-fcf9-456a-ae14-50b6790d5049"
+          "id": "00cd7149-6066-4138-b1c1-cdfe7e03b51e"
         },
         {
           "name": "Replace drive shaft joint",
           "price": "60$",
           "leadTime": "2",
-          "id": "843ce170-9e3e-4fa5-b518-0700859869f2"
+          "id": "3da818e5-6f60-49e1-8762-66fc2cea99f5"
         }
       ],
-      "id": "f27bef31-51f2-4a8e-8e98-0f6673e2dddb"
+      "id": "7fd459ab-398f-4f17-afec-4ce976997233"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/engine.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/engine.svg",
       "partition": "Engine",
       "servicesList": [
         {
           "name": "Replace fuel pump",
           "price": "60$",
           "leadTime": "2",
-          "id": "5220413c-acd2-46fc-8093-e75c0e3d1adf"
+          "id": "ef9c681c-819a-42d7-82e8-ee9ec4606d53"
         },
         {
           "name": "Replace timing chain",
           "price": "48$",
           "leadTime": "8",
-          "id": "eebc6a10-90bf-43cc-8c81-1c8929c07437"
+          "id": "594d1dc4-6100-4689-a9a9-e331af6fd6b3"
         },
         {
           "name": "Replace valve case seal",
           "price": "75$",
           "leadTime": "2.5",
-          "id": "fe970ad1-f8d0-4df5-be1c-2992bad17b45"
+          "id": "b9f7725d-37a2-478e-93db-66f838dd7a1d"
         },
         {
           "name": "Replace cylinder head gasket",
           "price": "600$",
           "leadTime": "10",
-          "id": "8a5a369a-d866-4f52-a2a5-02517662a876"
+          "id": "17193008-edc8-48da-846b-843ff402cf2f"
         },
         {
           "name": "Capital repair cylinder head",
           "price": "900$",
           "leadTime": "15",
-          "id": "cddb2226-8497-4e8e-bfb7-b399262c1fcf"
+          "id": "3dc4ba36-2849-4386-aba1-a56e29adebf1"
         },
         {
           "name": "Replace pistons",
           "price": "1200$",
           "leadTime": "20",
-          "id": "6826bfc4-e58c-4adb-9cfd-fc00a767c7aa"
+          "id": "4d3fd5a1-51a9-4683-a623-cf81b7cbbae6"
         }
       ],
-      "id": "4e216ac2-cdc9-47d1-9846-f6d5c262992f"
+      "id": "060b5b61-1f08-4dfc-a92e-8a1eac6becd6"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/transmission.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/transmission.svg",
       "partition": "Transmission",
       "servicesList": [
         {
           "name": "Replace clutch (mechanic)",
           "price": "210$",
           "leadTime": "7",
-          "id": "34b3c1cc-9c10-4cd9-84be-01b8caf6f6dc"
+          "id": "6a33d6c3-9f1b-4ee2-83dd-63e0f3d8bc4b"
         },
         {
           "name": "Replace clutch (robotic)",
           "price": "300$",
           "leadTime": "10",
-          "id": "464f0b80-2ea1-4b9d-904c-cbd3cb72000c"
+          "id": "824463e4-2f4f-4d27-8cb3-0b84dc2478e7"
         },
         {
           "name": "Replace final drive",
           "price": "150$",
           "leadTime": "5",
-          "id": "eb9249ca-86b6-4a39-a3e8-72185ec2f8a7"
+          "id": "435844fc-a3c9-418d-b095-3e88b8f794f9"
         },
         {
           "name": "Replace angular gear",
           "price": "135$",
           "leadTime": "4.5",
-          "id": "eab9c94a-b902-4012-a46c-9c45828c57fc"
+          "id": "ae8234bc-001a-43b0-9e87-cdfe6e56c7f4"
         },
         {
           "name": "Replace drive seals",
           "price": "90$",
           "leadTime": "3",
-          "id": "3ec3ca7b-0426-401b-aadf-315d75dd0602"
+          "id": "c9697ba0-6d0d-46c2-9ae1-c13467860ea1"
         },
         {
           "name": "Replace gears or frictions",
           "price": "600$",
           "leadTime": "20",
-          "id": "9320eab1-769b-428f-bc1c-11e63a2e4070"
+          "id": "e35055ea-31f0-4e16-85b8-9a36876c0910"
         },
         {
           "name": "Replace propeller shaft bearing ",
           "price": "120$",
           "leadTime": "4",
-          "id": "faef6008-cc9d-462f-bb9f-4bd373759ac7"
+          "id": "cf08382d-88d8-4cb0-89e1-7e54d74db0aa"
         }
       ],
-      "id": "d5a250e4-22a2-4aa5-beff-b470835211da"
+      "id": "fe45604a-215b-49f5-b0a7-a5165ad5f18c"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/tire.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/tire.svg",
       "partition": "Tire service",
       "servicesList": [
         {
           "name": "4 Wheels remove and install",
           "price": "12$",
           "leadTime": "0.4",
-          "id": "802ea6db-59db-4a5a-8500-78ba66e3a429"
+          "id": "29abb1a7-e031-4ddc-abb2-12bf0efa3924"
         },
         {
           "name": "Tire service 4 wheels",
           "price": "24$",
           "leadTime": "0.8",
-          "id": "6546a528-484d-45c2-9f73-e05d2ff15208"
+          "id": "33462022-ac7e-4199-81ae-e4e8971371c0"
         },
         {
           "name": "Repair tire (puncture)",
           "price": "12$",
           "leadTime": "0.4",
-          "id": "b0e92d4e-9385-4e1d-92bd-861cada3818c"
+          "id": "e5ee0ddb-e5ce-4de1-8b83-3d1af1230fa2"
         },
         {
           "name": "Repair tire (side cut)",
           "price": "18$",
           "leadTime": "0.6",
-          "id": "f1becabe-4a20-4f3f-a53b-696f0e2d6954"
+          "id": "7d971fd7-a7f8-48d3-8259-d32604ac33d9"
         },
         {
           "name": "Tire preservation",
           "price": "9$",
           "leadTime": "0.3",
-          "id": "6d9b157a-640b-4e46-b213-c8beacac7269"
+          "id": "f44a65a0-936b-42f0-a5ad-db92edde1320"
         },
         {
           "name": "Store tires (until 6 month)",
           "price": "40$",
           "leadTime": "-",
-          "id": "ea41d4e1-b6bf-4177-879d-3d4bffa8b2b2"
+          "id": "3e2b773e-5d44-40df-96de-efcf9fa9a7af"
         },
         {
           "name": "Disc rolling",
           "price": "30$",
           "leadTime": "1",
-          "id": "ca15fa70-dcc8-4746-a359-6e770b664b1d"
+          "id": "af84c0f1-029e-463d-9e51-fa31078f5533"
         }
       ],
-      "id": "8b8ceb57-ea6f-4014-846c-586c3c936349"
+      "id": "9521d883-cbf6-4585-9252-fe266213c7c1"
     },
     {
-      "icon": "http://localhost:4000/static/images/services-icons/electrics.svg",
+      "icon": "https://auto-wizard-server.onrender.com/static/images/services-icons/electrics.svg",
       "partition": "Electrics",
       "servicesList": [
         {
           "name": "Accumulator replacement",
           "price": "12$",
           "leadTime": "0.4",
-          "id": "0dd17b80-f49d-4fa1-8927-b1053758f576"
+          "id": "4571dbf9-42f1-435e-ab89-3e942a9a8e75"
         },
         {
           "name": "Computer diagnostic",
           "price": "21$",
           "leadTime": "0.7",
-          "id": "c5b8c195-2067-4498-8157-042dc35cfd11"
+          "id": "d977c3eb-cd3a-4f74-b574-226fd4c4db36"
         },
         {
           "name": "Setting multimedia",
           "price": "120$",
           "leadTime": "4",
-          "id": "91114b80-7ed5-43ba-821a-b14c40db35d8"
+          "id": "b5a05625-83a3-4f4d-9cb1-daf433b1c4c9"
         },
         {
           "name": "Setting rear camera",
           "price": "180$",
           "leadTime": "6",
-          "id": "d3ece704-cc10-4ca1-866b-9160f89ef2e6"
+          "id": "ecbfe188-e0b7-4584-b90f-a9f77f7e298f"
         },
         {
           "name": "Setting parking-sensors (front or rear bumper)",
           "price": "150$",
           "leadTime": "5",
-          "id": "2004a09e-8de1-4dd8-b02c-e4fa15bac94b"
+          "id": "7aa6a942-d70b-4007-a4a9-fc66a084d786"
         },
         {
           "name": "Calibration cruise-control",
           "price": "21$",
           "leadTime": "0.7",
-          "id": "997fe576-46cc-4251-b248-9db9a2349ab0"
+          "id": "f09b2f16-d4aa-4ab1-8282-386c4ca66266"
         },
         {
           "name": "Bulb replacement",
           "price": "6$",
           "leadTime": "0.2",
-          "id": "a60a90cc-c610-4837-81db-7fbb68d9c0ac"
+          "id": "49bee1e6-c399-4e4d-8c8b-afbdf7ce395f"
         }
       ],
-      "id": "75578597-4a85-45f3-ad1a-f475241a74da"
+      "id": "923394e6-1577-4286-b48f-f27ca36db96e"
     }
   ]
 }
