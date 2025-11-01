@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 import generateIdForDB from './utilities/generateIdForDB.js';
+import generateOrderNumber from './utilities/generateOrderNumber.js';
 import JSON5 from 'json5';
 
 // Получаем текущую директорию
@@ -20,14 +21,20 @@ generateIdForDB(dbRaw);
 const tempDbPath = path.join(__dirname, 'db-with-ids.json');
 fs.writeFileSync(tempDbPath, JSON.stringify(dbRaw, null, 2), 'utf-8');
 
-const router = jsonServer.router('db-with-ids.json');
+const router = jsonServer.router(tempDbPath);
 const middlewares = jsonServer.defaults();
 
-// Раздача статики из папки public по пути /static
-app.use('/static', express.static(path.join(__dirname, 'static')));
-
 // Подключение middleware json-server
+app.use('/static', express.static(path.join(__dirname, 'static')));
 app.use(middlewares);
+app.use(jsonServer.bodyParser);
+
+app.use((req, _res, next) => {
+  if (req.method === 'POST' && req.path === '/api/appointments') {
+    req.body.orderNumber = generateOrderNumber();
+  }
+  next();
+});
 app.use('/api', router);
 
 // Запуск сервера
